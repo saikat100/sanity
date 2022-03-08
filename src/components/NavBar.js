@@ -13,6 +13,7 @@ export default function NavBar() {
 					exact
 					activeClassName="text-white"
 					className="items-center py-6 px-3 mr-4 text-red-100 hover:text-green-800 text-4xl font-bold cursive tracking-widest visibility-name"
+					onClick={handleClick}
 				>
 					SAIKAT
 				</NavLink>
@@ -22,6 +23,7 @@ export default function NavBar() {
 						exact
 						activeClassName="text-white"
 						className="items-center py-6 px-3 mr-4 text-red-100 hover:text-green-800 text-4xl font-bold cursive tracking-widest"
+						onClick={handleClick}
 					>
 						SAIKAT
 					</NavLink>
@@ -30,6 +32,7 @@ export default function NavBar() {
 						exact
 						className="items-center py-3 px-3 my-6 rounded text-red-200 hover:text-green-800"
 						activeClassName="text-red-100 bg-red-700"
+						onClick={handleClick}
 					>
 						Home
 					</NavLink>
@@ -37,6 +40,7 @@ export default function NavBar() {
 						to="/post"
 						className="items-center py-3 px-3 my-6 rounded text-red-200 hover:text-green-800"
 						activeClassName="text-red-100 bg-red-700 active"
+						onClick={handleClick}
 					>
 						Blog Posts
 					</NavLink>
@@ -44,6 +48,7 @@ export default function NavBar() {
 						to="/project"
 						className="items-center py-3 px-3 my-6 rounded text-red-200 hover:text-green-800"
 						activeClassName="text-red-100 bg-red-700 active"
+						onClick={handleClick}
 					>
 						Projects
 					</NavLink>
@@ -51,6 +56,7 @@ export default function NavBar() {
 						to="/about"
 						className="items-center py-3 px-3 my-6 rounded text-red-200 hover:text-green-800"
 						activeClassName="text-red-100 bg-red-700 active"
+						onClick={handleClick}
 					>
 						About Me!
 					</NavLink>
